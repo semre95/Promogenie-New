@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Enhancor - AI Skin Texture Enhancement Tool</title>
+
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="Enhancor - AI Skin Texture Enhancement Tool" />
+    <meta
+      name="description"
+      content="Transform AI-generated skin textures into photorealistic results with Enhancor. Our advanced AI technology makes synthetic skin indistinguishable from real human skin, perfect for digital art, gaming, and virtual reality applications."
+    />
+    <meta
+      name="keywords"
+      content="AI skin texture, skin enhancement, realistic skin, digital art, texture generation, AI art, skin rendering, photorealistic skin, texture enhancement, 3D skin textures"
+    />
+    <meta name="robots" content="index, follow, max-image-preview:large" />
+    <meta name="language" content="English" />
+    <meta name="author" content="Enhancor" />
+    <meta name="revisit-after" content="7 days" />
+    <meta name="generator" content="Enhancor AI" />
+    <link rel="canonical" href="https://www.enhancor.ai" />
+
+    <!-- Manifest for SEO -->
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/enhancorfavicon.png" />
+
+    <!-- Open Graph Meta Tags (For Social Media Previews) -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:title"
+      content="Enhancor - AI Skin Texture Enhancement Tool"
+    />
+    <meta
+      property="og:description"
+      content="Transform AI-generated skin textures into photorealistic results with Enhancor. Our advanced AI technology makes synthetic skin indistinguishable from real human skin."
+    />
+    <meta property="og:url" content="https://www.enhancor.ai" />
+    <meta property="og:image" content="/enhancorfavicon.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:site_name" content="Enhancor" />
+
+    <!-- Twitter Card (For X Previews) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="Enhancor - AI Skin Texture Enhancement Tool"
+    />
+    <meta
+      name="twitter:description"
+      content="Transform AI-generated skin textures into photorealistic results with Enhancor. Our advanced AI technology makes synthetic skin indistinguishable from real human skin."
+    />
+    <meta name="twitter:image" content="/enhancorfavicon.png" />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Enhancor",
+        "applicationCategory": "MultimediaApplication",
+        "operatingSystem": "Web-based",
+        "description": "Transform AI-generated skin textures into photorealistic results with Enhancor. Our advanced AI technology makes synthetic skin indistinguishable from real human skin.",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        },
+        "aggregateRating": {
+          "@type": "AggregateRating",
+          "ratingValue": "4.8",
+          "ratingCount": "100"
+        },
+        "featureList": [
+          "AI-powered skin texture enhancement",
+          "Photorealistic skin generation",
+          "Advanced pore and skin detail enhancement",
+          "Real-time texture optimization",
+          "Seamless skin texture mapping",
+          "Natural skin tone adjustment",
+          "High-resolution skin detail processing",
+          "Custom skin texture generation"
+        ],
+        "keywords": "AI skin texture, skin enhancement, realistic skin, digital art, texture generation, AI art, skin rendering, photorealistic skin, texture enhancement, 3D skin textures"
+      }
+    </script>
+    <script type="module" crossorigin src="/assets/index-5a0f3336.js"></script>
+    <link rel="stylesheet" href="/assets/index-32f6b11f.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    
+    <script
+      type="text/javascript"
+      src="https://static.leaddyno.com/js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://static.leaddyno.com/js"
+    ></script>
+    <script>
+      // LeadDyno initialization
+      LeadDyno.domain = "enhancor.ai";
+      LeadDyno.key = "b73abe343d940df7b01a0d13de6ab8217b612f81";
+      LeadDyno.recordVisit();
+      LeadDyno.autoWatch();
+
+      // Add this function to store parameters
+      function saveAffiliateParams() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const leaddynoParams = {};
+
+        // Save all LeadDyno related parameters
+        ["afmc", "utm_campaign", "utm_source", "utm_medium"].forEach(
+          (param) => {
+            if (urlParams.has(param)) {
+              leaddynoParams[param] = urlParams.get(param);
+            }
+          }
+        );
+
+        // Save to localStorage if we have any LeadDyno parameters
+        if (Object.keys(leaddynoParams).length > 0) {
+          localStorage.setItem(
+            "leaddynoParams",
+            JSON.stringify(leaddynoParams)
+          );
+
+          // Also set cookies with domain to share across subdomains
+          for (const [key, value] of Object.entries(leaddynoParams)) {
+            document.cookie = `${key}=${value}; path=/; domain=.enhancor.ai; max-age=1800`; // 30 min expiry
+          }
+        }
+      }
+
+      function updateAppLinks() {
+        const storedParams = localStorage.getItem("leaddynoParams");
+
+        if (storedParams) {
+          const params = JSON.parse(storedParams);
+          const links = document.querySelectorAll('a[href*="app.enhacor.ai"]');
+
+          links.forEach((link) => {
+            const url = new URL(link.href);
+
+            for (const [key, value] of Object.entries(params)) {
+              url.searchParams.set(key, value);
+            }
+
+            link.href = url.toString();
+          });
+        }
+      }
+
+      document.addEventListener("DOMContentLoaded", function () {
+        saveAffiliateParams();
+        updateAppLinks();
+      });
+    </script>
+  </body>
+</html>
